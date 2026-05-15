@@ -5,6 +5,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>CoolBreeze HVAC Solutions — Austin's #1 HVAC Company</title>
 <meta name="description" content="Austin's most trusted HVAC experts. 24/7 emergency service, same-day appointments, licensed & insured. Call (512) 400-2665 for a free quote."/>
+
+<meta property="og:title" content="CoolBreeze HVAC Solutions — Austin, TX" />
+<meta property="og:description" content="Austin's top-rated HVAC experts. Fast AC repair, upfront pricing, 24/7 service." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://beyondthenoise09-ai.github.io/COOLBREEZE-HVAC-SOLUTION-/" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "name": "CoolBreeze HVAC Solutions",
+  "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
+  "@id": "",
+  "url": "https://beyondthenoise09-ai.github.io/COOLBREEZE-HVAC-SOLUTION-/",
+  "telephone": "+15124002665",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Austin",
+    "addressRegion": "TX",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 30.2672,
+    "longitude": -97.7431
+  },
+  "areaServed": ["Austin", "Round Rock", "Cedar Park", "Georgetown", "Pflugerville"],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
@@ -135,7 +173,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   padding: 120px 28px 80px;
 }
 
-/* Video Background CSS */
 .hero-video {
   position: absolute;
   top: 0;
@@ -151,7 +188,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   opacity: 1;
 }
 
-/* Dark Overlay for Video */
 .hero-overlay {
   position: absolute;
   inset: 0;
@@ -177,7 +213,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   gap: 60px; align-items: center; position: relative; z-index: 2;
 }
 
-/* Left Side Styling */
 .hero-badge {
   display: inline-flex; align-items: center; gap: 10px;
   background: transparent; border: 1px solid rgba(255,255,255,0.2);
@@ -219,7 +254,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   padding: 16px 28px; border-radius: 14px; text-decoration: none; min-height: 56px;
   transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 8px 30px rgba(255,107,43,0.3);
-  border: none; cursor: pointer;
+  border: none; cursor: pointer; width: fit-content;
 }
 .btn-orange:hover { background: var(--orange-dk); transform: translateY(-2px); box-shadow: 0 16px 45px rgba(255,107,43,0.45); }
 .btn-orange svg { width: 18px; height: 18px; }
@@ -228,7 +263,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   background: transparent; color: #fff; font-weight: 600; font-size: 15px;
   padding: 16px 24px; border-radius: 14px; text-decoration: none; min-height: 56px;
   border: 1px solid rgba(255,255,255,0.2);
-  transition: border-color 0.2s, background 0.2s;
+  transition: border-color 0.2s, background 0.2s; width: fit-content;
 }
 .btn-outline:hover { border-color: rgba(255,255,255,0.4); background: rgba(255,255,255,0.05); }
 
@@ -247,7 +282,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 .hero-stars { color: #facc15; font-size: 13px; letter-spacing: 2px; }
 .hero-stars-sub { color: var(--navy-light); font-size: 11px; margin-top: 2px; }
 
-/* Right Side Styling (3D Animation) */
 .hero-right { 
   position: relative; 
   display: flex; 
@@ -257,7 +291,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   perspective: 1200px;
 }
 
-/* 3D Animated Concentric Rings */
 .hero-rings {
   position: absolute;
   top: 50%; left: 50%;
@@ -273,37 +306,14 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   border: 1px solid rgba(255, 255, 255, 0.05);
   box-shadow: 0 0 30px rgba(255, 107, 43, 0.05) inset;
 }
-.ring-1 { 
-  width: 520px; height: 520px; 
-  border-top: 2px solid rgba(255, 107, 43, 0.5); 
-  animation: spin3D_1 14s linear infinite; 
-}
-.ring-2 { 
-  width: 380px; height: 380px; 
-  border-right: 2px solid rgba(255, 255, 255, 0.3); 
-  animation: spin3D_2 18s linear infinite reverse; 
-}
-.ring-3 { 
-  width: 240px; height: 240px; 
-  border-bottom: 2px solid rgba(255, 107, 43, 0.8); 
-  animation: spin3D_3 10s linear infinite; 
-}
+.ring-1 { width: 520px; height: 520px; border-top: 2px solid rgba(255, 107, 43, 0.5); animation: spin3D_1 14s linear infinite; }
+.ring-2 { width: 380px; height: 380px; border-right: 2px solid rgba(255, 255, 255, 0.3); animation: spin3D_2 18s linear infinite reverse; }
+.ring-3 { width: 240px; height: 240px; border-bottom: 2px solid rgba(255, 107, 43, 0.8); animation: spin3D_3 10s linear infinite; }
 
-/* 3D Keyframes for Rings */
-@keyframes spin3D_1 {
-  0% { transform: translate(-50%, -50%) rotateX(65deg) rotateY(15deg) rotateZ(0deg); }
-  100% { transform: translate(-50%, -50%) rotateX(65deg) rotateY(15deg) rotateZ(360deg); }
-}
-@keyframes spin3D_2 {
-  0% { transform: translate(-50%, -50%) rotateX(45deg) rotateY(-25deg) rotateZ(0deg); }
-  100% { transform: translate(-50%, -50%) rotateX(45deg) rotateY(-25deg) rotateZ(360deg); }
-}
-@keyframes spin3D_3 {
-  0% { transform: translate(-50%, -50%) rotateX(75deg) rotateY(5deg) rotateZ(0deg); }
-  100% { transform: translate(-50%, -50%) rotateX(75deg) rotateY(5deg) rotateZ(360deg); }
-}
+@keyframes spin3D_1 { 0% { transform: translate(-50%, -50%) rotateX(65deg) rotateY(15deg) rotateZ(0deg); } 100% { transform: translate(-50%, -50%) rotateX(65deg) rotateY(15deg) rotateZ(360deg); } }
+@keyframes spin3D_2 { 0% { transform: translate(-50%, -50%) rotateX(45deg) rotateY(-25deg) rotateZ(0deg); } 100% { transform: translate(-50%, -50%) rotateX(45deg) rotateY(-25deg) rotateZ(360deg); } }
+@keyframes spin3D_3 { 0% { transform: translate(-50%, -50%) rotateX(75deg) rotateY(5deg) rotateZ(0deg); } 100% { transform: translate(-50%, -50%) rotateX(75deg) rotateY(5deg) rotateZ(360deg); } }
 
-/* Glassmorphic Central Card */
 .hero-card {
   background: rgba(15, 30, 56, 0.4);
   backdrop-filter: blur(16px);
@@ -319,11 +329,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   transform-style: preserve-3d;
 }
 
-@keyframes floatCard {
-  0% { transform: translateY(0px) rotateX(0deg) rotateY(0deg); }
-  50% { transform: translateY(-15px) rotateX(2deg) rotateY(-2deg); }
-  100% { transform: translateY(0px) rotateX(0deg) rotateY(0deg); }
-}
+@keyframes floatCard { 0% { transform: translateY(0px) rotateX(0deg) rotateY(0deg); } 50% { transform: translateY(-15px) rotateX(2deg) rotateY(-2deg); } 100% { transform: translateY(0px) rotateX(0deg) rotateY(0deg); } }
 
 .hero-card-ac { display: flex; justify-content: center; margin-bottom: 36px; }
 .ac-box {
@@ -355,7 +361,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 .green-dot-core { position: relative; width: 8px; height: 8px; border-radius: 50%; background: #22c55e; display: block; }
 .hero-status span { color: #4ade80; font-size: 13px; font-weight: 600; }
 
-/* Floating badges */
 .float-badge {
   position: absolute;
   background: rgba(10,22,40,0.8); color: #fff; backdrop-filter: blur(8px);
@@ -378,10 +383,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 }
 .float-badge svg, .float-badge-2 svg { width: 10px; height: 10px; color: var(--orange); }
 
-@keyframes floatSubtle {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
-}
+@keyframes floatSubtle { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
 
 .float-top-right { top: -20px; right: -40px; }
 .float-bottom-left { bottom: -20px; left: -40px; }
@@ -402,10 +404,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 }
 @keyframes scrollDot { 0%,100%{transform:translateY(0);opacity:1} 50%{transform:translateY(8px);opacity:0.4} }
 
-@media (max-width: 900px) {
-  .hero-inner { grid-template-columns: 1fr; }
-  .hero-right { display: none; }
-}
+@media (max-width: 900px) { .hero-inner { grid-template-columns: 1fr; } .hero-right { display: none; } }
 
 /* ─── TRUST BAR ──────────────────────────────────────── */
 #trust-bar {
@@ -414,26 +413,14 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   border-bottom: 1px solid rgba(255,255,255,0.06);
   padding: 14px 0; overflow: hidden; position: relative;
 }
-#trust-bar::before, #trust-bar::after {
-  content: ''; position: absolute; top: 0; bottom: 0; width: 80px; z-index: 2; pointer-events: none;
-}
+#trust-bar::before, #trust-bar::after { content: ''; position: absolute; top: 0; bottom: 0; width: 80px; z-index: 2; pointer-events: none; }
 #trust-bar::before { left: 0; background: linear-gradient(to right, var(--navy-mid), transparent); }
 #trust-bar::after  { right: 0; background: linear-gradient(to left, var(--navy-mid), transparent); }
-.trust-track {
-  display: flex; align-items: center; gap: 0;
-  animation: trustScroll 28s linear infinite;
-  width: max-content;
-}
+.trust-track { display: flex; align-items: center; gap: 0; animation: trustScroll 28s linear infinite; width: max-content; }
 .trust-track:hover { animation-play-state: paused; }
 @keyframes trustScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-.trust-item {
-  display: flex; align-items: center; gap: 10px;
-  padding: 0 36px; white-space: nowrap;
-}
-.trust-icon {
-  width: 30px; height: 30px; background: rgba(255,107,43,0.12);
-  border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-}
+.trust-item { display: flex; align-items: center; gap: 10px; padding: 0 36px; white-space: nowrap; }
+.trust-icon { width: 30px; height: 30px; background: rgba(255,107,43,0.12); border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .trust-icon svg { width: 15px; height: 15px; color: var(--orange); }
 .trust-label { color: #fff; font-size: 13px; font-weight: 600; }
 .trust-dot { color: var(--orange); font-size: 18px; font-weight: 700; opacity: 0.6; }
@@ -457,7 +444,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 .section-pad { padding: 96px 28px; }
 .section-inner { max-width: 1280px; margin: 0 auto; }
 
-/* ─── REVEAL ─────────────────────────────────────────── */
 .reveal { opacity: 0; transform: translateY(36px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 .reveal-d1 { transition-delay: 0.1s; }
@@ -468,11 +454,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 
 /* ─── SERVICES ───────────────────────────────────────── */
 #services { background: #fff; }
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px; margin-top: 56px;
-}
+.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 56px; }
 @media (max-width: 900px) { .services-grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 580px) { .services-grid { grid-template-columns: 1fr; } }
 
@@ -481,80 +463,36 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   border: 1px solid rgba(0,0,0,0.07);
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
-.service-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 28px 70px rgba(0,0,0,0.12), 0 0 0 1px rgba(255,107,43,0.18);
-  border-color: rgba(255,107,43,0.2);
-}
+.service-card:hover { transform: translateY(-8px); box-shadow: 0 28px 70px rgba(0,0,0,0.12), 0 0 0 1px rgba(255,107,43,0.18); border-color: rgba(255,107,43,0.2); }
 .service-card:hover .svc-icon { background: var(--orange); }
 .service-card:hover .svc-icon svg { color: #fff; }
 .service-card.featured { background: var(--navy); border-color: transparent; }
 .service-card.featured .svc-title { color: #fff; }
 .service-card.featured .svc-desc { color: var(--slate); }
 .service-card.featured .svc-footer { border-top-color: rgba(255,255,255,0.1); }
-.svc-icon {
-  width: 52px; height: 52px; border-radius: 14px;
-  background: rgba(255,107,43,0.08);
-  display: flex; align-items: center; justify-content: center; margin-bottom: 20px;
-  transition: background 0.3s;
-}
+.svc-icon { width: 52px; height: 52px; border-radius: 14px; background: rgba(255,107,43,0.08); display: flex; align-items: center; justify-content: center; margin-bottom: 20px; transition: background 0.3s; }
 .svc-icon svg { width: 26px; height: 26px; color: var(--orange); transition: color 0.3s; }
 .svc-title { font-size: 18px; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
 .svc-desc { font-size: 13px; color: #6b7280; line-height: 1.65; }
-.svc-footer {
-  margin-top: 20px; padding-top: 20px;
-  border-top: 1px solid rgba(0,0,0,0.07);
-  display: flex; align-items: center; gap: 6px;
-  color: var(--orange); font-size: 13px; font-weight: 600;
-}
+.svc-footer { margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.07); display: flex; align-items: center; gap: 6px; color: var(--orange); font-size: 13px; font-weight: 600; }
 .svc-footer svg { width: 14px; height: 14px; }
-.svc-badge {
-  position: absolute; top: 16px; right: 16px;
-  background: var(--orange); color: #fff;
-  font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 100px;
-}
+.svc-badge { position: absolute; top: 16px; right: 16px; background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 100px; }
 .services-cta { text-align: center; margin-top: 48px; }
 .services-cta p { color: #9ca3af; font-size: 14px; margin-bottom: 16px; }
 
 /* ─── WHY US ─────────────────────────────────────────── */
-#why-us {
-  background: var(--navy);
-  padding: 96px 28px;
-  position: relative; overflow: hidden;
-}
-#why-us::before {
-  content: ''; position: absolute;
-  top: -100px; right: -100px;
-  width: 500px; height: 500px;
-  background: rgba(255,107,43,0.05);
-  border-radius: 50%; filter: blur(60px); pointer-events: none;
-}
-.why-inner {
-  max-width: 1280px; margin: 0 auto;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
-}
+#why-us { background: var(--navy); padding: 96px 28px; position: relative; overflow: hidden; }
+#why-us::before { content: ''; position: absolute; top: -100px; right: -100px; width: 500px; height: 500px; background: rgba(255,107,43,0.05); border-radius: 50%; filter: blur(60px); pointer-events: none; }
+.why-inner { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
 @media (max-width: 900px) { .why-inner { grid-template-columns: 1fr; gap: 48px; } }
 .why-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-top: 36px; }
-.why-stat {
-  background: var(--navy-light); border-radius: 16px; padding: 16px;
-  text-align: center; border: 1px solid rgba(255,255,255,0.06);
-}
+.why-stat { background: var(--navy-light); border-radius: 16px; padding: 16px; text-align: center; border: 1px solid rgba(255,255,255,0.06); }
 .why-stat-val { color: var(--orange); font-size: 28px; font-weight: 800; line-height: 1; }
 .why-stat-lbl { color: var(--slate); font-size: 11px; margin-top: 4px; }
 .feature-list { display: flex; flex-direction: column; gap: 16px; }
-.feature-item {
-  display: flex; align-items: flex-start; gap: 18px;
-  background: var(--navy-light); border-radius: 18px; padding: 22px;
-  border: 1px solid rgba(255,255,255,0.06);
-  transition: border-color 0.25s;
-}
+.feature-item { display: flex; align-items: flex-start; gap: 18px; background: var(--navy-light); border-radius: 18px; padding: 22px; border: 1px solid rgba(255,255,255,0.06); transition: border-color 0.25s; }
 .feature-item:hover { border-color: rgba(255,107,43,0.2); }
-.feature-icon {
-  width: 46px; height: 46px; border-radius: 12px;
-  background: rgba(255,107,43,0.1);
-  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-  transition: background 0.25s;
-}
+.feature-icon { width: 46px; height: 46px; border-radius: 12px; background: rgba(255,107,43,0.1); display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background 0.25s; }
 .feature-item:hover .feature-icon { background: rgba(255,107,43,0.18); }
 .feature-icon svg { width: 22px; height: 22px; color: var(--orange); }
 .feature-title { color: #fff; font-size: 15px; font-weight: 700; margin-bottom: 4px; }
@@ -569,58 +507,27 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 .reviews-count { color: #9ca3af; font-size: 13px; }
 .reviews-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; max-width: 1100px; margin: 0 auto; }
 @media (max-width: 900px) { .reviews-grid { grid-template-columns: 1fr; } }
-.review-card {
-  background: #fff; border-radius: 20px; padding: 28px;
-  border: 1px solid rgba(0,0,0,0.07);
-  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
-  position: relative;
-}
+.review-card { background: #fff; border-radius: 20px; padding: 28px; border: 1px solid rgba(0,0,0,0.07); transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; position: relative; }
 .review-card:hover { transform: translateY(-5px); box-shadow: 0 24px 60px rgba(0,0,0,0.09); border-color: rgba(255,107,43,0.15); }
 .review-stars { color: #facc15; font-size: 15px; letter-spacing: 2px; margin-bottom: 16px; }
 .review-text { color: #4b5563; font-size: 14px; line-height: 1.75; font-style: italic; margin-bottom: 22px; }
 .review-footer { display: flex; align-items: center; gap: 12px; padding-top: 18px; border-top: 1px solid #f3f4f6; }
-.review-avatar {
-  width: 40px; height: 40px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 13px; font-weight: 700; color: #fff; flex-shrink: 0;
-}
+.review-avatar { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: #fff; flex-shrink: 0; }
 .ra-1 { background: linear-gradient(135deg,#60a5fa,#3b82f6); }
 .ra-2 { background: linear-gradient(135deg,#34d399,#10b981); }
 .ra-3 { background: linear-gradient(135deg,#a78bfa,#8b5cf6); }
 .review-name { color: var(--navy); font-weight: 700; font-size: 14px; }
 .review-city { color: #9ca3af; font-size: 12px; }
-.review-tag {
-  position: absolute; top: -12px; left: 24px;
-  background: var(--orange); color: #fff;
-  font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 100px;
-}
+.review-tag { position: absolute; top: -12px; left: 24px; background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 100px; }
 
 /* ─── PRICING ────────────────────────────────────────── */
 #pricing { background: #fff; padding: 96px 28px; }
-.pricing-grid {
-  display: grid; grid-template-columns: repeat(3,1fr);
-  gap: 20px; max-width: 1060px; margin: 0 auto; margin-top: 56px;
-  align-items: start;
-}
+.pricing-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; max-width: 1060px; margin: 0 auto; margin-top: 56px; align-items: start; }
 @media (max-width: 900px) { .pricing-grid { grid-template-columns: 1fr; max-width: 480px; } }
-.pricing-card {
-  background: #f9fafb; border-radius: 22px; padding: 32px;
-  border: 1px solid rgba(0,0,0,0.08);
-  transition: transform 0.3s, box-shadow 0.3s;
-  display: flex; flex-direction: column;
-}
+.pricing-card { background: #f9fafb; border-radius: 22px; padding: 32px; border: 1px solid rgba(0,0,0,0.08); transition: transform 0.3s, box-shadow 0.3s; display: flex; flex-direction: column; }
 .pricing-card:hover { transform: translateY(-6px); box-shadow: 0 28px 70px rgba(0,0,0,0.1); }
-.pricing-card.popular {
-  background: var(--navy); border: 2px solid var(--orange);
-  box-shadow: 0 0 60px rgba(255,107,43,0.15);
-  position: relative; padding-top: 44px;
-}
-.popular-badge {
-  position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
-  background: var(--orange); color: #fff;
-  font-size: 12px; font-weight: 700; padding: 6px 18px; border-radius: 100px;
-  white-space: nowrap; box-shadow: 0 6px 20px rgba(255,107,43,0.4);
-}
+.pricing-card.popular { background: var(--navy); border: 2px solid var(--orange); box-shadow: 0 0 60px rgba(255,107,43,0.15); position: relative; padding-top: 44px; }
+.popular-badge { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: var(--orange); color: #fff; font-size: 12px; font-weight: 700; padding: 6px 18px; border-radius: 100px; white-space: nowrap; box-shadow: 0 6px 20px rgba(255,107,43,0.4); }
 .pricing-tier { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 12px; }
 .pricing-tier.light { color: var(--orange); }
 .pricing-tier.dark { color: #9ca3af; }
@@ -639,11 +546,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 .pricing-features li.off { color: #d1d5db; }
 .check-icon { width: 16px; height: 16px; flex-shrink: 0; color: #22c55e; }
 .cross-icon { width: 16px; height: 16px; flex-shrink: 0; color: #d1d5db; }
-.pricing-btn {
-  display: flex; align-items: center; justify-content: center;
-  padding: 14px; border-radius: 14px; font-weight: 700; font-size: 14px;
-  text-decoration: none; min-height: 50px; transition: all 0.2s;
-}
+.pricing-btn { display: flex; align-items: center; justify-content: center; padding: 14px; border-radius: 14px; font-weight: 700; font-size: 14px; text-decoration: none; min-height: 50px; transition: all 0.2s; }
 .pricing-btn.gray { background: #e5e7eb; color: var(--navy); }
 .pricing-btn.gray:hover { background: #d1d5db; }
 .pricing-btn.orange { background: var(--orange); color: #fff; box-shadow: 0 8px 25px rgba(255,107,43,0.35); }
@@ -658,18 +561,9 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 #faq { background: #f9fafb; padding: 96px 28px; }
 .faq-list { max-width: 740px; margin: 0 auto; margin-top: 52px; display: flex; flex-direction: column; gap: 12px; }
 .faq-item { background: #fff; border-radius: 18px; border: 1px solid rgba(0,0,0,0.07); overflow: hidden; }
-.faq-trigger {
-  width: 100%; display: flex; align-items: center; justify-content: space-between;
-  padding: 22px 24px; background: none; border: none; cursor: pointer; text-align: left;
-}
+.faq-trigger { width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 22px 24px; background: none; border: none; cursor: pointer; text-align: left; }
 .faq-question { font-size: 15px; font-weight: 600; color: var(--navy); padding-right: 20px; line-height: 1.45; }
-.faq-icon-btn {
-  width: 28px; height: 28px; border-radius: 50%;
-  background: rgba(255,107,43,0.08); flex-shrink: 0;
-  display: flex; align-items: center; justify-content: center;
-  color: var(--orange); font-size: 20px; font-weight: 300; line-height: 1;
-  transition: transform 0.35s ease, background 0.25s;
-}
+.faq-icon-btn { width: 28px; height: 28px; border-radius: 50%; background: rgba(255,107,43,0.08); flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--orange); font-size: 20px; font-weight: 300; line-height: 1; transition: transform 0.35s ease, background 0.25s; }
 .faq-item.open .faq-icon-btn { transform: rotate(45deg); background: var(--orange); color: #fff; }
 .faq-body { max-height: 0; overflow: hidden; transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1); }
 .faq-body.open { max-height: 250px; }
@@ -678,88 +572,83 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
 .faq-cta p { color: #9ca3af; font-size: 14px; margin-bottom: 18px; }
 
 /* ─── FINAL CTA ──────────────────────────────────────── */
-#cta-final {
-  background: var(--navy);
-  padding: 96px 28px;
-  text-align: center; position: relative; overflow: hidden;
-}
-#cta-final::before {
-  content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%);
-  width: 700px; height: 400px;
-  background: rgba(255,107,43,0.07); border-radius: 50%; filter: blur(60px); pointer-events: none;
-}
-.cta-avail {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: rgba(255,107,43,0.1); border: 1px solid rgba(255,107,43,0.25);
-  color: var(--orange); font-size: 11px; font-weight: 700;
-  padding: 8px 16px; border-radius: 100px;
-  letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 28px;
-}
-.cta-title {
-  font-size: clamp(34px, 5vw, 62px);
-  font-weight: 800; color: #fff;
-  letter-spacing: -1px; line-height: 1.1; margin-bottom: 20px;
-}
+#cta-final { background: var(--navy); padding: 96px 28px; text-align: center; position: relative; overflow: hidden; }
+#cta-final::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 700px; height: 400px; background: rgba(255,107,43,0.07); border-radius: 50%; filter: blur(60px); pointer-events: none; }
+.cta-avail { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,107,43,0.1); border: 1px solid rgba(255,107,43,0.25); color: var(--orange); font-size: 11px; font-weight: 700; padding: 8px 16px; border-radius: 100px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 28px; }
+.cta-title { font-size: clamp(34px, 5vw, 62px); font-weight: 800; color: #fff; letter-spacing: -1px; line-height: 1.1; margin-bottom: 20px; }
 .cta-sub { color: var(--slate); font-size: 18px; line-height: 1.65; max-width: 580px; margin: 0 auto 40px; }
-.cta-phone-btn {
-  display: inline-flex; align-items: center; gap: 14px;
-  background: var(--orange); color: #fff; font-weight: 800; font-size: 22px;
-  padding: 22px 40px; border-radius: 18px; text-decoration: none;
-  box-shadow: 0 12px 50px rgba(255,107,43,0.4);
-  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
-  min-height: 68px;
-}
+.cta-phone-btn { display: inline-flex; align-items: center; gap: 14px; background: var(--orange); color: #fff; font-weight: 800; font-size: 22px; padding: 22px 40px; border-radius: 18px; text-decoration: none; box-shadow: 0 12px 50px rgba(255,107,43,0.4); transition: background 0.2s, transform 0.2s, box-shadow 0.2s; min-height: 68px; }
 .cta-phone-btn:hover { background: var(--orange-dk); transform: translateY(-3px); box-shadow: 0 20px 60px rgba(255,107,43,0.5); }
 .cta-phone-btn svg { width: 24px; height: 24px; }
 .cta-chips { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 32px; }
 .cta-chip { display: flex; align-items: center; gap: 8px; color: var(--slate); font-size: 13px; }
 .cta-chip svg { width: 15px; height: 15px; color: #22c55e; }
 
+/* ─── NEW SECTIONS STYLING ───────────────────────────── */
+.glass-input { width: 100%; background: rgba(255,255,255,0.04); color: #fff; border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 16px; font-family: inherit; font-size: 15px; outline: none; transition: border-color 0.2s, background 0.2s; margin-bottom: 16px; }
+.glass-input:focus { border-color: var(--orange); background: rgba(255,255,255,0.08); }
+.glass-input::placeholder { color: var(--slate); }
+select.glass-input option { background: var(--navy-light); color: #fff; }
+.trust-badge-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 32px; }
+.trust-badge-item { display: flex; align-items: center; gap: 8px; color: var(--slate); font-size: 14px; font-weight: 500; }
+.trust-badge-item svg { width: 18px; height: 18px; color: var(--orange); }
+.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 56px; }
+@media (max-width: 900px) { .team-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .team-grid { grid-template-columns: 1fr; } }
+.team-card { background: rgba(255,255,255,0.03); border-radius: 20px; overflow: hidden; border: 1px solid rgba(255,255,255,0.06); transition: transform 0.3s ease, border-color 0.3s ease; }
+.team-card:hover { transform: translateY(-6px); border-color: rgba(255,107,43,0.3); }
+.team-img { width: 100%; height: 260px; object-fit: cover; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.team-info { padding: 24px; }
+.team-name { color: #fff; font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+.team-role { color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 12px; }
+.team-bio { color: var(--slate); font-size: 14px; line-height: 1.6; }
+.booking-ui-wrapper { background: rgba(15, 30, 56, 0.4); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.08); border-radius: 24px; padding: 40px; display: grid; grid-template-columns: 1fr 1.2fr 1fr; gap: 32px; margin-top: 48px; }
+@media (max-width: 900px) { .booking-ui-wrapper { grid-template-columns: 1fr; gap: 40px; padding: 28px; } }
+.booking-step { position: relative; }
+.booking-step:not(:last-child)::after { content: ''; position: absolute; right: -16px; top: 10%; bottom: 10%; width: 1px; background: rgba(255,255,255,0.08); }
+@media (max-width: 900px) { .booking-step:not(:last-child)::after { right: 10%; left: 10%; bottom: -20px; top: auto; height: 1px; width: auto; } }
+.step-header { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+.step-num { width: 32px; height: 32px; border-radius: 50%; background: rgba(255,107,43,0.15); color: var(--orange); font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+.step-title { color: #fff; font-size: 18px; font-weight: 600; }
+.time-slot-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.time-slot { border: 1px solid rgba(255,255,255,0.15); border-radius: 10px; padding: 12px; text-align: center; font-size: 13px; font-weight: 500; color: #fff; cursor: pointer; transition: all 0.2s; background: rgba(255,255,255,0.02); }
+.time-slot.active { background: var(--orange); border-color: var(--orange); box-shadow: 0 4px 15px rgba(255,107,43,0.3); }
+.time-slot:hover:not(.active) { border-color: var(--orange); background: rgba(255,107,43,0.05); }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; margin-top: 48px;}
+@media (max-width: 900px) { .seo-grid { grid-template-columns: 1fr; } }
+.cities-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.city-item { display: flex; align-items: center; gap: 10px; color: var(--slate); font-size: 15px; transition: color 0.2s; text-decoration: none;}
+.city-item:hover { color: var(--orange); }
+.city-item svg { width: 16px; height: 16px; color: rgba(255,255,255,0.15); transition: color 0.2s; }
+.city-item:hover svg { color: var(--orange); }
+.map-abstract { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 24px; min-height: 320px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+.map-nodes svg { width: 100%; height: auto; max-width: 300px; opacity: 0.6; }
+
 /* ─── FOOTER ─────────────────────────────────────────── */
-#footer {
-  background: var(--navy-deep);
-  border-top: 1px solid rgba(255,255,255,0.06);
-  padding: 64px 28px 28px;
-}
+#footer { background: var(--navy-deep); border-top: 1px solid rgba(255,255,255,0.06); padding: 64px 28px 28px; }
 .footer-inner { max-width: 1280px; margin: 0 auto; }
-.footer-grid {
-  display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  gap: 40px; margin-bottom: 48px;
-}
+.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 48px; }
 @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .footer-grid { grid-template-columns: 1fr; } }
 .footer-logo-wrap { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
-.footer-logo-icon {
-  width: 36px; height: 36px; border-radius: 10px;
-  background: var(--orange); display: flex; align-items: center; justify-content: center;
-}
+.footer-logo-icon { width: 36px; height: 36px; border-radius: 10px; background: var(--orange); display: flex; align-items: center; justify-content: center; }
 .footer-logo-icon svg { width: 18px; height: 18px; color: #fff; }
 .footer-logo-text span:first-child { display: block; color: #fff; font-weight: 800; font-size: 16px; letter-spacing: -0.3px; }
 .footer-logo-text span:last-child { display: block; color: var(--slate); font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; }
 .footer-desc { color: var(--slate); font-size: 13px; line-height: 1.7; margin-bottom: 16px; }
 .footer-phone { color: var(--orange); font-weight: 700; font-size: 15px; text-decoration: none; }
 .footer-phone:hover { color: var(--orange-lt); }
-.footer-col-title {
-  color: #fff; font-size: 11px; font-weight: 700;
-  letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 18px;
-}
+.footer-col-title { color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 18px; }
 .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
 .footer-links a { color: var(--slate); font-size: 13px; text-decoration: none; transition: color 0.2s; }
 .footer-links a:hover { color: #fff; }
 .footer-links li { color: var(--slate); font-size: 13px; }
-.footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.06);
-  padding-top: 24px;
-  display: flex; align-items: center; justify-content: space-between;
-  flex-wrap: wrap; gap: 16px;
-}
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.06); padding-top: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
 .footer-copy { color: var(--slate); font-size: 12px; }
 .footer-bottom-links { display: flex; align-items: center; gap: 20px; }
 .footer-bottom-links a { color: var(--slate); font-size: 12px; text-decoration: none; transition: color 0.2s; }
 .footer-bottom-links a:hover { color: #fff; }
 .footer-bottom-phone { color: var(--orange); font-weight: 600; font-size: 12px; text-decoration: none; }
-
-/* ─── ICONS (phone) ──────────────────────────────────── */
 .icon-phone { width: 1em; height: 1em; fill: currentColor; }
 </style>
 </head>
@@ -779,7 +668,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
         <span>HVAC Solutions</span>
       </div>
     </a>
-
     <nav class="nav-links">
       <a href="#services">Services</a>
       <a href="#why-us">Why Us</a>
@@ -787,19 +675,16 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
       <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
     </nav>
-
     <a class="nav-cta" href="tel:+15124002665">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
       Call Now — Free Quote
     </a>
-
     <button id="ham-btn" aria-label="Open menu">
       <span class="ham-line"></span>
       <span class="ham-line"></span>
       <span class="ham-line"></span>
     </button>
   </div>
-
   <div id="mobile-menu">
     <div class="mobile-menu-inner">
       <a href="#services" class="mobile-nav-link">Services</a>
@@ -815,9 +700,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   </div>
 </nav>
 
-
 <section id="hero">
-  
   <video id="hero-vid-1" class="hero-video active" autoplay muted playsinline preload="auto">
     <source src="https://res.cloudinary.com/dmetveatj/video/upload/ac_none,q_auto,f_auto/v1778821391/InShot_20260515_102703525_lewhq4.mp4" type="video/mp4">
   </video>
@@ -826,7 +709,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   </video>
 
   <div class="hero-overlay"></div>
-
   <div class="hero-grid"></div>
   <div class="hero-glow"></div>
 
@@ -836,22 +718,18 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
         Emergency Service Available — 24/7
       </div>
-
       <h1 class="hero-h1">
         Austin's Most<br/>
         <span class="gradient-text">Trusted HVAC</span><br/>
         Experts
       </h1>
-
       <p class="hero-sub">
         Fast response, honest pricing, and expert repairs — guaranteed. When your AC breaks down in Texas heat, we're there in <strong>60 minutes or less.</strong>
       </p>
-
       <a class="hero-phone" href="tel:+15124002665">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
         (512) 400-2665
       </a>
-
       <div class="hero-btns">
         <a class="btn-orange" href="tel:+15124002665">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
@@ -862,7 +740,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
         </a>
       </div>
-
       <div class="hero-social-proof">
         <div class="hero-avatars">
           <div class="av av-1">JR</div>
@@ -878,13 +755,11 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
     </div>
 
     <div class="hero-right">
-      
       <div class="hero-rings">
         <div class="ring ring-1"></div>
         <div class="ring ring-2"></div>
         <div class="ring ring-3"></div>
       </div>
-
       <div class="float-badge float-top-right">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
         Same-Day Available
@@ -893,7 +768,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
         Licensed & Insured
       </div>
-
       <div class="hero-card">
         <div class="hero-card-ac">
           <div class="ac-box">
@@ -909,7 +783,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
             </div>
           </div>
         </div>
-
         <div class="hero-stats">
           <div>
             <div class="hero-stat-val highlight">24/7</div>
@@ -924,7 +797,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
             <div class="hero-stat-lbl">Rating</div>
           </div>
         </div>
-
         <div class="hero-status">
           <div class="green-dot-wrap">
             <span class="green-dot-ping"></span>
@@ -942,61 +814,65 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   </div>
 </section>
 
-
 <div id="trust-bar">
   <div class="trust-track">
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg></div>
-      <span class="trust-label">Licensed &amp; Insured</span>
-    </div>
-    <span class="trust-dot">·</span>
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></div>
-      <span class="trust-label">4.9★ Google Rating</span>
-    </div>
-    <span class="trust-dot">·</span>
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div>
-      <span class="trust-label">500+ Homes Served</span>
-    </div>
-    <span class="trust-dot">·</span>
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z"/></svg></div>
-      <span class="trust-label">Same-Day Service</span>
-    </div>
-    <span class="trust-dot">·</span>
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-      <span class="trust-label">10-Year Warranty</span>
-    </div>
-    <span class="trust-dot" style="padding:0 20px;">·</span>
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg></div>
-      <span class="trust-label">Licensed &amp; Insured</span>
-    </div>
-    <span class="trust-dot">·</span>
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></div>
-      <span class="trust-label">4.9★ Google Rating</span>
-    </div>
-    <span class="trust-dot">·</span>
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div>
-      <span class="trust-label">500+ Homes Served</span>
-    </div>
-    <span class="trust-dot">·</span>
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z"/></svg></div>
-      <span class="trust-label">Same-Day Service</span>
-    </div>
-    <span class="trust-dot">·</span>
-    <div class="trust-item">
-      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-      <span class="trust-label">10-Year Warranty</span>
-    </div>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg></div><span class="trust-label">Licensed &amp; Insured</span></div><span class="trust-dot">·</span>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></div><span class="trust-label">4.9★ Google Rating</span></div><span class="trust-dot">·</span>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div><span class="trust-label">500+ Homes Served</span></div><span class="trust-dot">·</span>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z"/></svg></div><span class="trust-label">Same-Day Service</span></div><span class="trust-dot">·</span>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><span class="trust-label">10-Year Warranty</span></div><span class="trust-dot" style="padding:0 20px;">·</span>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg></div><span class="trust-label">Licensed &amp; Insured</span></div><span class="trust-dot">·</span>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></div><span class="trust-label">4.9★ Google Rating</span></div><span class="trust-dot">·</span>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div><span class="trust-label">500+ Homes Served</span></div><span class="trust-dot">·</span>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z"/></svg></div><span class="trust-label">Same-Day Service</span></div><span class="trust-dot">·</span>
+    <div class="trust-item"><div class="trust-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><span class="trust-label">10-Year Warranty</span></div>
   </div>
 </div>
 
+<section id="lead-capture" class="section-pad bg-navy">
+  <div class="section-inner" style="display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 60px; align-items: center;">
+    <div class="reveal">
+      <span class="section-label">Get a Free Quote</span>
+      <h2 class="section-title section-title-white" style="margin-top: 16px;">Need Fast AC Repair?<br/>Get a Quote in 60 Seconds</h2>
+      <p class="section-sub" style="max-width: 480px; margin-top: 20px;">
+        Don't let a broken AC ruin your day. Tell us what you need, and our dispatch team will secure your slot immediately. No commitment, just fast answers.
+      </p>
+      
+      <div class="trust-badge-row">
+        <div class="trust-badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          NATE Certified Techs
+        </div>
+        <div class="trust-badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          24/7 Dispatch
+        </div>
+        <div class="trust-badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+          Secure & Confidential
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card reveal reveal-d2" style="max-width: 100%; margin: 0; animation: none;">
+      <form action="https://formspree.io/f/mkoylyvk" method="POST">
+        <input type="text" name="name" class="glass-input" placeholder="Your Name" required />
+        <input type="tel" name="phone" class="glass-input" placeholder="Phone Number" required />
+        <input type="text" name="zipcode" class="glass-input" placeholder="Zip Code" required />
+        <select name="service_needed" class="glass-input" required>
+          <option value="" disabled selected>Service Needed</option>
+          <option value="repair">Emergency AC Repair</option>
+          <option value="install">New AC Installation</option>
+          <option value="maintenance">Routine Maintenance</option>
+          <option value="other">Other / Not Sure</option>
+        </select>
+        <button type="submit" class="btn-orange" style="width: 100%; justify-content: center; margin-top: 8px;">
+          Request Service Now
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
 
 <section id="services" class="section-pad">
   <div class="section-inner">
@@ -1109,85 +985,44 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   </div>
 </section>
 
-
-<section id="why-us">
-  <div class="why-inner">
-    <div class="reveal">
-      <span class="section-label">Why CoolBreeze</span>
-      <h2 class="section-title section-title-white" style="margin-top:14px;">
-        We Don't Just Fix AC<br/>— We Fix It <span class="gradient-text">Right.</span>
-      </h2>
-      <p style="color:var(--slate);font-size:17px;line-height:1.7;max-width:420px;margin-bottom:32px;">
-        Hundreds of Austin homeowners trust CoolBreeze because we show up on time, charge fair prices, and guarantee every job — no asterisks, no fine print.
-      </p>
-      <div class="why-stats">
-        <div class="why-stat">
-          <div class="why-stat-val" data-counter="500" data-suffix="+">0</div>
-          <div class="why-stat-lbl">Homes Served</div>
-        </div>
-        <div class="why-stat">
-          <div class="why-stat-val" data-counter="10" data-suffix="yr">0</div>
-          <div class="why-stat-lbl">Warranty</div>
-        </div>
-        <div class="why-stat">
-          <div class="why-stat-val" data-counter="60" data-suffix="m">0</div>
-          <div class="why-stat-lbl">Response Time</div>
-        </div>
-      </div>
+<section id="team" class="section-pad bg-navy-mid">
+  <div class="section-inner">
+    <div class="section-center reveal">
+      <span class="section-label">Meet The Team</span>
+      <h2 class="section-title section-title-white">Real Local Experts,<br/>Ready to Serve Austin</h2>
+      <p class="section-sub" style="color: var(--slate);">We never use unvetted contractors. Our team consists of full-time, background-checked professionals who treat your home like their own.</p>
     </div>
 
-    <div class="feature-list">
-      <div class="feature-item reveal reveal-d1">
-        <div class="feature-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/>
-          </svg>
-        </div>
-        <div>
-          <div class="feature-title">Lightning-Fast Response</div>
-          <div class="feature-desc">Our Austin-based technicians arrive in 60 minutes or less — guaranteed, 24 hours a day, 7 days a week.</div>
+    <div class="team-grid">
+      <div class="team-card reveal reveal-d1">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80" alt="Lead Technician" class="team-img" />
+        <div class="team-info">
+          <div class="team-role">Lead Technician</div>
+          <div class="team-name">Marcus T.</div>
+          <div class="team-bio">NATE-certified with over 12 years diagnosing complex AC systems. Known for finding the problem fast.</div>
         </div>
       </div>
 
-      <div class="feature-item reveal reveal-d2">
-        <div class="feature-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-          </svg>
-        </div>
-        <div>
-          <div class="feature-title">Upfront, Honest Pricing</div>
-          <div class="feature-desc">You get a flat-rate quote before we touch anything. No surprise fees, no upsell pressure — ever.</div>
+      <div class="team-card reveal reveal-d2">
+        <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=600&q=80" alt="Installation Specialist" class="team-img" />
+        <div class="team-info">
+          <div class="team-role">Install Specialist</div>
+          <div class="team-name">David L.</div>
+          <div class="team-bio">Expert in seamless system upgrades and ductwork. Leaves every job site cleaner than he found it.</div>
         </div>
       </div>
 
-      <div class="feature-item reveal reveal-d3">
-        <div class="feature-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z"/>
-          </svg>
-        </div>
-        <div>
-          <div class="feature-title">NATE-Certified Technicians</div>
-          <div class="feature-desc">Every tech is background-checked, licensed, and NATE-certified — the gold standard in HVAC.</div>
-        </div>
-      </div>
-
-      <div class="feature-item reveal reveal-d4">
-        <div class="feature-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/>
-          </svg>
-        </div>
-        <div>
-          <div class="feature-title">100% Satisfaction Guarantee</div>
-          <div class="feature-desc">Not happy? We come back and make it right — free of charge. That's our promise to every customer.</div>
+      <div class="team-card reveal reveal-d3">
+        <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=80" alt="Fully Stocked Vans" class="team-img" />
+        <div class="team-info">
+          <div class="team-role">Always Ready</div>
+          <div class="team-name">Fully Stocked Fleet</div>
+          <div class="team-bio">Our mobile warehouses carry thousands of parts so we can fix 95% of issues on the very first visit.</div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 
 <section id="reviews">
   <div style="max-width:1280px;margin:0 auto;padding:96px 28px;">
@@ -1242,6 +1077,65 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   </div>
 </section>
 
+<section id="booking-ui" class="section-pad bg-navy">
+  <div class="section-inner">
+    <div class="section-center reveal">
+      <span class="section-label">Skip The Call</span>
+      <h2 class="section-title section-title-white" style="margin-top: 12px;">Book Online Quickly</h2>
+      <p class="section-sub" style="color: var(--slate);">Select a service and grab an available time slot directly from our live schedule. It's fast, easy, and secures your place in line.</p>
+    </div>
+
+    <div class="booking-ui-wrapper reveal reveal-d2">
+      <div class="booking-step">
+        <div class="step-header">
+          <div class="step-num">1</div>
+          <div class="step-title">Choose Service</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 12px;" id="service-options">
+          <label class="time-slot active" data-value="AC Repair / Diagnostics" style="text-align: left; display: flex; justify-content: space-between;">
+            <span>AC Repair / Diagnostics</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"></path></svg>
+          </label>
+          <label class="time-slot" data-value="Routine Maintenance" style="text-align: left;">Routine Maintenance</label>
+          <label class="time-slot" data-value="Installation Estimate" style="text-align: left;">Installation Estimate</label>
+        </div>
+      </div>
+
+      <div class="booking-step">
+        <div class="step-header">
+          <div class="step-num">2</div>
+          <div class="step-title">Pick a Time</div>
+        </div>
+        <p style="color: var(--slate); font-size: 13px; margin-bottom: 16px;">Available slots for Today</p>
+        <div class="time-slot-grid" id="time-options">
+          <div class="time-slot" data-value="8:00 AM - 10:00 AM">8:00 AM - 10:00 AM</div>
+          <div class="time-slot" data-value="10:00 AM - 12:00 PM">10:00 AM - 12:00 PM</div>
+          <div class="time-slot active" data-value="12:00 PM - 2:00 PM">12:00 PM - 2:00 PM</div>
+          <div class="time-slot" data-value="2:00 PM - 4:00 PM" style="opacity: 0.5; pointer-events: none;">2:00 PM - 4:00 PM</div>
+          <div class="time-slot" data-value="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</div>
+          <div class="time-slot" data-value="Emergency / ASAP">Emergency / ASAP</div>
+        </div>
+      </div>
+
+      <div class="booking-step">
+        <div class="step-header">
+          <div class="step-num">3</div>
+          <div class="step-title">Your Details</div>
+        </div>
+        
+        <form action="https://formspree.io/f/mkoylyvk" method="POST" style="display: flex; flex-direction: column; height: calc(100% - 56px);">
+          <input type="hidden" name="selected_service" id="hidden_service" value="AC Repair / Diagnostics">
+          <input type="hidden" name="selected_time" id="hidden_time" value="12:00 PM - 2:00 PM">
+          
+          <input type="text" name="name" class="glass-input" placeholder="Full Name" required style="padding: 12px; margin-bottom: 12px; font-size: 14px;"/>
+          <input type="text" name="phone" class="glass-input" placeholder="Phone Number" required style="padding: 12px; margin-bottom: 12px; font-size: 14px;"/>
+          
+          <button type="submit" class="btn-orange" style="width: 100%; justify-content: center; min-height: 48px; margin-top: auto;">Confirm Booking</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="pricing">
   <div style="max-width:1280px;margin:0 auto;padding:96px 28px;">
@@ -1308,7 +1202,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
     </p>
   </div>
 </section>
-
 
 <section id="faq">
   <div style="max-width:1280px;margin:0 auto;padding:96px 28px;">
@@ -1379,6 +1272,65 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
   </div>
 </section>
 
+<section id="service-areas" class="section-pad bg-navy-deep" style="border-top: 1px solid rgba(255,255,255,0.05);">
+  <div class="section-inner seo-grid">
+    <div class="reveal">
+      <span class="section-label">Local SEO</span>
+      <h2 class="section-title section-title-white" style="margin-top: 12px; font-size: clamp(28px, 4vw, 42px);">Proudly Serving the<br/>Greater Austin Area</h2>
+      <p class="section-sub" style="margin-bottom: 32px; font-size: 15px;">Wherever you are in Central Texas, our fleet is just minutes away. Select your city to learn more about our local services.</p>
+      
+      <div class="cities-list">
+        <a href="#" class="city-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Austin
+        </a>
+        <a href="#" class="city-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Round Rock
+        </a>
+        <a href="#" class="city-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Cedar Park
+        </a>
+        <a href="#" class="city-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Georgetown
+        </a>
+        <a href="#" class="city-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Pflugerville
+        </a>
+        <a href="#" class="city-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Leander
+        </a>
+        <a href="#" class="city-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Hutto
+        </a>
+        <a href="#" class="city-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Kyle & Buda
+        </a>
+      </div>
+    </div>
+    
+    <div class="map-abstract reveal reveal-d2">
+      <div class="map-nodes">
+        <svg viewBox="0 0 200 200" fill="none" stroke="rgba(255,107,43,0.5)" stroke-width="1.5">
+          <circle cx="100" cy="100" r="80" stroke-dasharray="4 6"></circle>
+          <circle cx="100" cy="100" r="50" stroke-dasharray="2 4" stroke="rgba(255,255,255,0.2)"></circle>
+          <circle cx="100" cy="100" r="4" fill="var(--orange)" stroke="none"></circle>
+          <circle cx="140" cy="70" r="4" fill="#fff" stroke="none"></circle>
+          <circle cx="60" cy="120" r="4" fill="#fff" stroke="none"></circle>
+          <circle cx="120" cy="150" r="4" fill="#fff" stroke="none"></circle>
+          <circle cx="70" cy="60" r="4" fill="#fff" stroke="none"></circle>
+          <path d="M100 100 L140 70 M100 100 L60 120 M100 100 L120 150 M100 100 L70 60" stroke="rgba(255,255,255,0.1)"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="cta-final">
   <div style="position:relative;z-index:2;">
@@ -1410,7 +1362,6 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff; color: #1
     </div>
   </div>
 </section>
-
 
 <footer id="footer">
   <div class="footer-inner">
@@ -1554,6 +1505,31 @@ document.querySelectorAll('.faq-trigger').forEach(btn => {
   });
 });
 
+// ── Booking UI Time Slots Interaction (JS to Hidden Fields) ──────────────────
+const serviceOptions = document.querySelectorAll('#service-options .time-slot');
+const hiddenServiceInput = document.getElementById('hidden_service');
+
+serviceOptions.forEach(slot => {
+  slot.addEventListener('click', (e) => {
+    serviceOptions.forEach(s => s.classList.remove('active'));
+    let selected = e.currentTarget;
+    selected.classList.add('active');
+    hiddenServiceInput.value = selected.getAttribute('data-value') || selected.innerText;
+  });
+});
+
+const timeOptions = document.querySelectorAll('#time-options .time-slot:not([style*="pointer-events: none"])');
+const hiddenTimeInput = document.getElementById('hidden_time');
+
+timeOptions.forEach(slot => {
+  slot.addEventListener('click', (e) => {
+    timeOptions.forEach(s => s.classList.remove('active'));
+    let selected = e.currentTarget;
+    selected.classList.add('active');
+    hiddenTimeInput.value = selected.getAttribute('data-value') || selected.innerText;
+  });
+});
+
 // ── Smooth anchor scroll ───────────────────────────────
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
@@ -1567,13 +1543,11 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-// ── 100% Seamless Double-Video Loop Hack ───────────────────────────
+// ── Seamless Video Loop Hack ───────────────────────────
 const vid1 = document.getElementById('hero-vid-1');
 const vid2 = document.getElementById('hero-vid-2');
 
 if (vid1 && vid2) {
-  // Kitne seconds pehle dusri video chalani hai gap chupane ke liye.
-  // Adjust karein agar video end mein inshot logo/black screen hai.
   const overlapTime = 0.4; 
   let isVid1Active = true;
 
@@ -1581,29 +1555,21 @@ if (vid1 && vid2) {
     const activeVid = isVid1Active ? vid1 : vid2;
     const hiddenVid = isVid1Active ? vid2 : vid1;
 
-    // Jab active video end hone wali ho (overlapTime pehle)
     if (activeVid.duration && activeVid.currentTime >= (activeVid.duration - overlapTime)) {
-      
-      // Hidden video ko zero se play karo
       hiddenVid.currentTime = 0;
       hiddenVid.play().catch(e => console.log("Video Play Error:", e));
       
-      // Classes switch kardo taaki smoothly nayi video samne aaye
       hiddenVid.classList.add('active');
       activeVid.classList.remove('active');
       
-      // Turn change kardo
       isVid1Active = !isVid1Active;
       
-      // Purani video ko piche pause kardo thodi der baad
       setTimeout(() => {
         activeVid.pause();
       }, overlapTime * 1000);
     }
-    
     requestAnimationFrame(seamlessDoubleLoop);
   }
-  
   requestAnimationFrame(seamlessDoubleLoop);
 }
 </script>
